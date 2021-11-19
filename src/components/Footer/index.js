@@ -1,10 +1,10 @@
 import React from 'react'
 import { FooterContainer, FooterWrap, FooterLinksContainer,
-        FooterLinksWrapper, FooterLinkItems, FooterLinksTitle, FooterPItemsWrapper, FooterPItems, P, P1,
-        FooterLink, SocialMedia, SocialMediaWrap, SocialLogo,
-        WebsiteRights, SocialIcons, SocialIconLink} from './FooterElement'
+        FooterLinksWrapper, FooterLinkItems, FooterLinksTitle, FooterPItemsWrapper, FooterPItems, Img, P, P1,
+        FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, Logo, BrandName, WebsiteRights, SocialIcons, SocialIconLink} from './FooterElement'
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import { animateScroll as scroll} from 'react-scroll'
+import LogoNav from "../../images/logonav.png"
 
 const Footer = () => {
  
@@ -39,9 +39,12 @@ const Footer = () => {
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
-                    <SocialMediaWrap>
+                    <SocialMediaWrap> 
                         <SocialLogo to="/highend_restaurant" onClick={scrollHome}>
-                            LOGO
+                            <Logo>
+                                <Img src={LogoNav} alt="logo" />
+                            </Logo>
+                            <BrandName>ABC Restaurant</BrandName>
                         </SocialLogo>
                         <WebsiteRights>
                             &copy; {new Date().getFullYear()} All rights reserved
@@ -71,10 +74,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-
-{/* <FooterLink to="/signin">How we work</FooterLink>
- <FooterLink to="/signin">Testi</FooterLink>
- <FooterLink to="/signin">Career</FooterLink>
-<FooterLink to="/signin">Investor</FooterLink>
- <FooterLink to="/signin">Terms of Service</FooterLink>  */}

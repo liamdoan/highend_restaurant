@@ -1,55 +1,3 @@
-// import styled from "styled-components";
-// import {NavLink as Link} from 'react-router-dom'
-// import {FaBars} from 'react-icons/fa'
- 
-//  export const Nav = styled.nav`
-//  background: linear-gradient(
-//      to right, 
-//      rgba(0,0,0,0.7), 
-//      rgba(0,0,0,0.1));
-//  height: 80px;
-//  display: flex;
-//  justify-content: center;
-//  font-weight:  700;
-//  `
-
-//  export const NavLink = styled(Link)`
-//  color: white;
-//  font-size: 2rem;
-//  display: flex;
-//  align-items: center;
-//  text-decoration: none;
-//  cursor: pointer;
-
-//  @media screen and (max-width: 400px){
-//      position: absolute;
-//      top: 10px;
-//      left: 25px
-//  }
-//  `
-
-//  export const NavIcon = styled.div`
-//  display: block;
-//  position: absolute;
-//  top: 0;
-//  right: 0;
-//  color: white;
-//  cursor: pointer;
-
-//  p{
-//      transform: translate(-175%, 100%);
-//      font-weight: bold;
-//  }
-//  `
-
-//  export const Bars = styled(FaBars)`
-//  font-size: 2rem;
-//  transform: translate(-50%, -15%);
-//  `
-
- 
-
-
 import styled from 'styled-components'
 import { Link as LinkRouter } from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
@@ -92,12 +40,28 @@ export const NavLogo = styled(LinkRouter)`
 color: white;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.5rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
-font-weight: bold;
 text-decoration: none;
+`
+export const Logo = styled.div`
+position: inherit;
+`
+
+export const Img = styled.img`
+height: 100%;
+width: 40px;
+`
+
+export const P = styled.p`
+font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+font-weight: 400;
+margin-left: 5px;
+
+@media screen and (max-width: 359px) {
+    display: none;
+}
 `
 
 export const MobileIcon = styled.div`

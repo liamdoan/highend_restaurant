@@ -142,10 +142,24 @@ color: white;
 justify-self: start;
 cursor: pointer;
 text-decoration: none;
-font-size: 1.5rem;
 align-items: center;
 margin-bottom: 16px;
-font-weight: bold;
+display: flex;
+`
+
+export const Logo = styled.div`
+position: inherit;
+`
+
+export const Img = styled.img`
+height: 100%;
+width: 40px;
+`
+
+export const BrandName = styled.p`
+font-size: 1.5rem;
+font-weight: 500;
+margin-left: 5px;
 `
 
 export const WebsiteRights = styled.div`

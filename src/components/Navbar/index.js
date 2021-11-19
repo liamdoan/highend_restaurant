@@ -1,19 +1,19 @@
 import React from 'react'
-import { Bars, Nav, NavIcon, NavLink, NavbarContainer, NavLogo, MobileIcon, NavMenuWrap, 
+import { Bars, Nav, NavIcon, NavLink, NavbarContainer, NavLogo, Logo, Img, P, MobileIcon, NavMenuWrap, 
     NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
 import { animateScroll as scroll} from 'react-scroll'
-
+import LogoNav from "../../images/logonav.png"
 
 const Navbar = ({toggle}) => { 
     
     const scrollHome = () => {
         scroll.scrollToTop();
-    }
+    } 
 
     return ( 
         <>
-            <Nav>
+            <Nav> 
             {/* <Nav scrollNav={scrollNav}> */}
                 <NavbarContainer>              
                     <NavLogo to="/highend_restaurant" smooth={true}
@@ -21,7 +21,10 @@ const Navbar = ({toggle}) => {
                             duration={1000} spy={true}
                             exact='true' offset={-80}
                             >
-                        Logo
+                        <Logo>
+                            <Img src={LogoNav} alt="logo" />
+                        </Logo>
+                        <P>ABC Restaurant</P>
                     </NavLogo>
                    
                     <MobileIcon onClick={toggle}>
