@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/highend_restaurant/static/css/main.afd7172b.chunk.css",
-    "main.js": "/highend_restaurant/static/js/main.d42f804f.chunk.js",
-    "main.js.map": "/highend_restaurant/static/js/main.d42f804f.chunk.js.map",
+    "main.js": "/highend_restaurant/static/js/main.229c9916.chunk.js",
+    "main.js.map": "/highend_restaurant/static/js/main.229c9916.chunk.js.map",
     "runtime-main.js": "/highend_restaurant/static/js/runtime-main.32f99b86.js",
     "runtime-main.js.map": "/highend_restaurant/static/js/runtime-main.32f99b86.js.map",
     "static/js/2.42af91f5.chunk.js": "/highend_restaurant/static/js/2.42af91f5.chunk.js",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.32f99b86.js",
     "static/js/2.42af91f5.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.d42f804f.chunk.js"
+    "static/js/main.229c9916.chunk.js"
   ]
 }
