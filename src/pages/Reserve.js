@@ -12,7 +12,7 @@ const Reserve = () => {
         e.target.reset();
         e.preventDefault()
     }
-    return (
+    return ( 
         <> 
          <Container >
              <FormWrap>
@@ -25,7 +25,7 @@ const Reserve = () => {
                          <FormLabel>Number of guests</FormLabel>
                          <FormInput placeholder="maximum 15 people" type="number" min="1" max="15" required/>
                          <FormLabel>Date</FormLabel>
-                         <FormInput type="date" required/>
+                         <FormInput type="datetime-local" required/>
                          <FormLabel>Email</FormLabel>
                          <FormInput type="email" required/>
                          <FormButton type="submit">Confirm</FormButton>
