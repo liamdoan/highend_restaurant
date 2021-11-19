@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/highend_restaurant/static/css/main.afd7172b.chunk.css",
-    "main.js": "/highend_restaurant/static/js/main.04962a28.chunk.js",
-    "main.js.map": "/highend_restaurant/static/js/main.04962a28.chunk.js.map",
+    "main.js": "/highend_restaurant/static/js/main.d42f804f.chunk.js",
+    "main.js.map": "/highend_restaurant/static/js/main.d42f804f.chunk.js.map",
     "runtime-main.js": "/highend_restaurant/static/js/runtime-main.32f99b86.js",
     "runtime-main.js.map": "/highend_restaurant/static/js/runtime-main.32f99b86.js.map",
-    "static/js/2.4613eb5b.chunk.js": "/highend_restaurant/static/js/2.4613eb5b.chunk.js",
-    "static/js/2.4613eb5b.chunk.js.map": "/highend_restaurant/static/js/2.4613eb5b.chunk.js.map",
+    "static/js/2.42af91f5.chunk.js": "/highend_restaurant/static/js/2.42af91f5.chunk.js",
+    "static/js/2.42af91f5.chunk.js.map": "/highend_restaurant/static/js/2.42af91f5.chunk.js.map",
     "index.html": "/highend_restaurant/index.html",
     "static/css/main.afd7172b.chunk.css.map": "/highend_restaurant/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.4613eb5b.chunk.js.LICENSE.txt": "/highend_restaurant/static/js/2.4613eb5b.chunk.js.LICENSE.txt",
+    "static/js/2.42af91f5.chunk.js.LICENSE.txt": "/highend_restaurant/static/js/2.42af91f5.chunk.js.LICENSE.txt",
     "static/media/drink1.0af79017.jpg": "/highend_restaurant/static/media/drink1.0af79017.jpg",
     "static/media/drink2.ebf87b08.jpg": "/highend_restaurant/static/media/drink2.ebf87b08.jpg",
     "static/media/drink3.50cc9cb4.jpg": "/highend_restaurant/static/media/drink3.50cc9cb4.jpg",
@@ -19,6 +19,7 @@
     "static/media/drink7.90248029.jpg": "/highend_restaurant/static/media/drink7.90248029.jpg",
     "static/media/drink8.46e6e7e9.jpg": "/highend_restaurant/static/media/drink8.46e6e7e9.jpg",
     "static/media/foodbg.a4f8ff41.jpg": "/highend_restaurant/static/media/foodbg.a4f8ff41.jpg",
+    "static/media/logonav.50dc603a.png": "/highend_restaurant/static/media/logonav.50dc603a.png",
     "static/media/pageabout.53ee7de3.jpg": "/highend_restaurant/static/media/pageabout.53ee7de3.jpg",
     "static/media/pagebeverages.c0eb394f.jpg": "/highend_restaurant/static/media/pagebeverages.c0eb394f.jpg",
     "static/media/pagecontact.6b871b42.jpg": "/highend_restaurant/static/media/pagecontact.6b871b42.jpg",
@@ -33,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.32f99b86.js",
-    "static/js/2.4613eb5b.chunk.js",
+    "static/js/2.42af91f5.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.04962a28.chunk.js"
+    "static/js/main.d42f804f.chunk.js"
   ]
 }
