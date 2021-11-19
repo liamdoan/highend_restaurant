@@ -67,7 +67,7 @@ margin-left: 5px;
 export const MobileIcon = styled.div`
 display: none;
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 798px){
     display: block;
     position: absolute;
     top: 0;
@@ -88,7 +88,7 @@ align-items: center;
 list-style: none;
 text-align: center;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 798px) {
     display: none;
 }
 `
@@ -124,7 +124,7 @@ display: flex;
 align-items: center;
 margin-left: 10px;
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 798px){
     display: none;
 }
 ` 
